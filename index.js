@@ -13,8 +13,11 @@ function map(array, newFunc){
 
 
     function reduce(array, newFunc,startVal){
-        let newVal;
-        newVal = Boolean(newVal)
+
+        
+    let newSart;  
+    if(!!array[0]){ newSart=true; newSart=Boolean(newSart);} 
+    if(start){ newSart=start;}
 
 
 
