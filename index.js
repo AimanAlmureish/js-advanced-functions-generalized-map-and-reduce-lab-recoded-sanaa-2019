@@ -28,7 +28,7 @@ function map(array, newFunc){
     
 
         for(let i=0; i< array.length; i++){  
-            startVal = newFunc(array[i],newVal)
+            startVal = newFunc(array[i],newSart)
      }
      return startVal
     }
