@@ -29,5 +29,23 @@ function map(array, newFunc){
     // }
     // return startVal
     // }
+    
+    function reduce(array , myFunc, start ){
+
+    let newSart;  
+    if(!!array[0]){ newSart=true; newSart=Boolean(newSart);} 
+    if(start){ newSart=start;}
+
+    function myNuum(array) {
+        return typeof(array) === "number";
+      }
+    if(!start && array.every(myNuum)){console.log("okay"); newSart=0}
+
+           for(let i=0; i<array.length; i++){  
+            newSart = myFunc(array[i],newSart )
+        }
+
+   return newSart ; 
+}
   
   
