@@ -33,8 +33,8 @@ function map(array, newFunc){
     function reduce(array , myFunc, start ){
 
     let newSart;  
-    if(!!array[0]){ newSart=true; newSart=Boolean(newSart);} 
-    if(start){ newSart=start;}
+    // if(!!array[0]){ newSart=true; newSart=Boolean(newSart);} 
+    // if(start){ newSart=start;}
 
     function myNuum(array) {
         return typeof(array) === "number";
