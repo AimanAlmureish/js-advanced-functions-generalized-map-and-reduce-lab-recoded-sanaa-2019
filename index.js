@@ -13,26 +13,19 @@ function map(array, newFunc){
 
 
     function reduce(array, newFunc,startVal){
-
-        
-    let newSart;  
-    if(!!array[0]){ newSart=true; newSart=Boolean(newSart);} 
-    if(start){ newSart=start;}
+        let newVal;
+        newVal = Boolean(newVal)
 
 
 
     //     for(let i=0; i< array.length; i++){  
     //         startVal = startVal + newFunc(array[i])
     //  }
-    
-    function myNuum(array) {
-        return typeof(array) === "number";
-      }
 
     
 
         for(let i=0; i< array.length; i++){  
-            startVal = newFunc(array[i],newSart)
+            startVal = newFunc(array[i],newVal)
      }
      return startVal
     }
