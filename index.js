@@ -24,6 +24,10 @@ function map(array, newFunc){
     //     for(let i=0; i< array.length; i++){  
     //         startVal = startVal + newFunc(array[i])
     //  }
+    
+    function myNuum(array) {
+        return typeof(array) === "number";
+      }
 
     
 
