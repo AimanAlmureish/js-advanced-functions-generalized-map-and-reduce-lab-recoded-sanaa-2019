@@ -12,22 +12,22 @@ function map(array, newFunc){
 
 
 
-    function reduce(array, newFunc,startVal){
-        let newVal;
-        newVal = Boolean(newVal)
+    // function reduce(array, newFunc,startVal){
+    //     let newVal;
+    //     newVal = Boolean(newVal)
 
 
 
-    //     for(let i=0; i< array.length; i++){  
-    //         startVal = startVal + newFunc(array[i])
-    //  }
+    // //     for(let i=0; i< array.length; i++){  
+    // //         startVal = startVal + newFunc(array[i])
+    // //  }
 
     
 
-        for(let i=0; i< array.length; i++){  
-            startVal = newFunc(array[i],newVal)
-     }
-     return startVal
-    }
+    //     for(let i=0; i< array.length; i++){  
+    //         startVal = newFunc(array[i],newVal)
+    // }
+    // return startVal
+    // }
   
   
